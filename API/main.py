@@ -2,7 +2,7 @@ import ssl
 from fastapi import FastAPI, HTTPException
 import mysql.connector
 from API.db import get_db_connection
-from models import Usuario, Receta, Ingrediente
+from API.models import Usuario, Receta, Ingrediente
 import uvicorn
 
 # Crear la instancia de FastAPI
